@@ -5,7 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Calibri', sans-serif;
 }
 
 header {
@@ -71,13 +71,15 @@ section {
 
 .main .content {
   max-width: 50%;
+  position: relative;
+  left: 100px;
 }
 
 .profil{
   max-width: 50%;
   position: relative;
-  left:150px;
-  top: 100px;
+  left:250px;
+  top: 30px;
   width: 400px;
   border-radius: 20px;
 }
@@ -384,7 +386,7 @@ section {
 }
 
 .work .content .card {
-  width: 340px;
+  width: 370px;
   margin: 15px;
 }
 
