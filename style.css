@@ -20,7 +20,7 @@ header {
   align-items: center;
   z-index: 999;
   transition: .5s ease;
-  border: 1px solid;
+  border: 1.5px solid;
   border-radius: 20px;
 }
 
@@ -82,6 +82,7 @@ section {
   top: 30px;
   width: 400px;
   border-radius: 20px;
+  box-shadow: 0 5px 25px rgba(1, 1, 1, 0.667);
 }
 
 .main .content h2 {
@@ -491,14 +492,15 @@ section {
 
 .contact-form .input-box input,
 .contact-form .input-box textarea {
-  color: #111;
+  color: #000;
   width: 100%;
   padding: 10px;
   font-size: 17px;
-  font-weight: 400;
+  font-weight: 600;
   outline: none;
-  border: 1px solid #111;
-  border-radius: 5px;
+  border-radius: 10px;
+  background-color: #dcdcdc;
+  border: none;
   resize: none;
 }
 
@@ -507,7 +509,7 @@ section {
   background: #FF3F18;
   display: inline-block;
   font-size: 19px;
-  font-weight: 500;
+  font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 2px;
   width: 100%;
@@ -517,9 +519,8 @@ section {
 }
 
 .contact-form .input-box .send-btn:hover {
-  background: #fff;
+  background: #dcdcdc;
   color: #000;
-  border: 1px solid #111;
 }
 
 .footer {
