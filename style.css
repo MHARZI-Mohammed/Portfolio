@@ -5,7 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Calibri', sans-serif;
 }
 
 header {
@@ -188,7 +188,7 @@ section {
   top: 56px;
   left: 50%;
   width: 140px;
-  height: 2px;
+  height: 3px;
   background: #FF3F18;
   transform: translateX(-50%);
 }
