@@ -802,5 +802,25 @@ header .navigation a {
   color: #FF3F18;
   font-size: 25px;
   margin-right: 30px;
+  position: relative;
+  right: 80px;
+  bottom: 130px;
+}
+.main {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: #E3E4E8;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.about .content {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 }
