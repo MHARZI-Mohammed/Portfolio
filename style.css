@@ -135,6 +135,7 @@ section {
     margin-top: 0;
   }
 }
+
 .btnn {
   color: #fff;
   background: #FF3F18;
@@ -155,6 +156,7 @@ section {
   background: #fff;
   color: #000;
 }
+
 .btn {
   color: #fff;
   background: #FF3F18;
@@ -704,187 +706,205 @@ section {
   opacity: 1;
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 700px) {
   header {
-  background: #F9F9F9;
-  top: 30px;
-  left: 30px;
-  width: 85%;
-  padding: 15px 115px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  z-index: 999;
-  transition: .5s ease;
-  border: 1.5px solid;
-  border-radius: 20px;
-}
+    background: #F9F9F9;
+    top: 30px;
+    left: 30px;
+    width: 85%;
+    padding: 15px 115px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;
+    transition: .5s ease;
+    border: 1.5px solid;
+    border-radius: 20px;
+  }
 
-header.sticky {
-  background: #dcdcdc;
-  padding: 10px 115px;
-}
+  header.sticky {
+    background: #dcdcdc;
+    padding: 10px 115px;
+  }
 
-header .brand {
-  color: #000;
-  font-size: 32px;
-  font-weight: 600;
-  text-decoration: none;
-}
+  header .brand {
+    color: #000;
+    font-size: 32px;
+    font-weight: 600;
+    text-decoration: none;
+  }
 
-header .navigation {
-  position: relative;
-}
+  header .navigation {
+    position: relative;
+  }
 
-header .navigation a {
-  display: none;
-}
-  .menu-btn{
+  header .navigation a {
     display: none;
   }
-  .profil{
+
+  .menu-btn {
     display: none;
   }
+
+  .profil {
+    display: none;
+  }
+
   .main .content h2 {
-  position: relative;
-  right: 70px;
-  bottom: 100px;
-  color: #000;
-  font-size: 34px;
-  font-weight: 500;
-  width: 300px;
-}
-.main .content h2 span {
-  font-size: 34px;
-  font-weight: 600;
-}
-.animated-text {
-  position: relative;
-  right: 70px;
-  bottom: 100px;
-  width: 300px;
-}
-.animated-text h3 {
-  position: relative;
-  color: #FF3F18;
-  font-size: 30px;
-  font-weight: 700;
-  width: 350px;
-  letter-spacing: 1px;
-}
-.animated-text h3:nth-child(1) {
-  animation: text-move 10s infinite
-} 
-@keyframes text-move {
-  0% {
-    margin-top: 0;
+    position: relative;
+    right: 70px;
+    bottom: 100px;
+    color: #000;
+    font-size: 34px;
+    font-weight: 500;
+    width: 300px;
   }
 
-  25% {
-    margin-top: -70px;
+  .main .content h2 span {
+    font-size: 34px;
+    font-weight: 600;
   }
 
-  50% {
-    margin-top: -140px;
+  .animated-text {
+    position: relative;
+    right: 70px;
+    bottom: 100px;
+    width: 300px;
   }
 
-  75% {
-    margin-top: -70px;
+  .animated-text h3 {
+    position: relative;
+    color: #FF3F18;
+    font-size: 30px;
+    font-weight: 700;
+    width: 350px;
+    letter-spacing: 1px;
   }
 
-  100% {
-    margin-top: 0;
+  .animated-text h3:nth-child(1) {
+    animation: text-move 10s infinite
   }
-}
-.btnn {
-  color: #fff;
-  background: #FF3F18;
-  font-size: 17px;
-  font-weight: 600;
-  display: inline-block;
-  text-decoration: none;
-  letter-spacing: 1px;
-  border-radius: 2px;
-  margin: 30px 0;
-  transition: .5s ease;
-  border-radius: 50px;
-  border: #000 solid;
-  position: relative;
-  right: 70px;
-  bottom: 100px;
-}
-.btnn:hover {
-  background: #fff;
-  color: #000;
-}
-.media-icons a {
-  color: #FF3F18;
-  font-size: 25px;
-  margin-right: 30px;
-  position: relative;
-  right: 80px;
-  bottom: 100px;
-}
-.main {
-  position: relative;
-  width: 100%;
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  background: #E3E4E8;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-}
-.about .content {
-  position: relative;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-.about .content .img-card {
-  position: relative;
-  width: 100%;
-}
-.about .content .img-card img {
-  position: relative;
-  top: 10px;
-  left: 55px;
-  width: 70%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 10px;
-}
-.about .content-title {
-  font-size: 26px;
-  font-weight: 800;
-  position: relative;
-  bottom: 100px;
-}
-.about .paragraph-text{
-  position: relative;
-  bottom: 60px;
-}
-.scrollToTop-btn {
-  z-index: 999;
-  position: fixed;
-  background: #FF3F18;
-  color: #fff;
-  width: 45px;
-  height: 45px;
-  right: 0;
-  bottom: 10px;
-  font-size: 22px;
-  text-align: center;
-  line-height: 45px;
-  border-radius: 3px;
-  cursor: pointer;
-  opacity: 0;
-  transition: all .3s ease;
-}
 
-.scrollToTop-btn.active {
-  right: 20px;
-  opacity: 1;
-}
+  @keyframes text-move {
+    0% {
+      margin-top: 0;
+    }
+
+    25% {
+      margin-top: -70px;
+    }
+
+    50% {
+      margin-top: -140px;
+    }
+
+    75% {
+      margin-top: -70px;
+    }
+
+    100% {
+      margin-top: 0;
+    }
+  }
+
+  .btnn {
+    color: #fff;
+    background: #FF3F18;
+    font-size: 17px;
+    font-weight: 600;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 1px;
+    border-radius: 2px;
+    margin: 30px 0;
+    transition: .5s ease;
+    border-radius: 50px;
+    border: #000 solid;
+    position: relative;
+    right: 70px;
+    bottom: 100px;
+  }
+
+  .btnn:hover {
+    background: #fff;
+    color: #000;
+  }
+
+  .media-icons a {
+    color: #FF3F18;
+    font-size: 25px;
+    margin-right: 30px;
+    position: relative;
+    right: 80px;
+    bottom: 100px;
+  }
+
+  .main {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: #E3E4E8;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+  .about .content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .about .content .img-card {
+    position: relative;
+    width: 100%;
+  }
+
+  .about .content .img-card img {
+    position: relative;
+    top: 10px;
+    left: 55px;
+    width: 70%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  .about .content-title {
+    font-size: 26px;
+    font-weight: 800;
+    position: relative;
+    bottom: 100px;
+  }
+
+  .about .paragraph-text {
+    position: relative;
+    bottom: 60px;
+  }
+
+  .scrollToTop-btn {
+    z-index: 999;
+    position: fixed;
+    background: #FF3F18;
+    color: #fff;
+    width: 45px;
+    height: 45px;
+    right: 0;
+    bottom: 10px;
+    font-size: 22px;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 3px;
+    cursor: pointer;
+    opacity: 0;
+    transition: all .3s ease;
+  }
+
+  .scrollToTop-btn.active {
+    right: 20px;
+    opacity: 1;
+  }
 }
