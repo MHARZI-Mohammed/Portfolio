@@ -748,7 +748,7 @@ header .navigation a {
   .main .content h2 {
   position: relative;
   right: 70px;
-  bottom: 130px;
+  bottom: 100px;
   color: #000;
   font-size: 34px;
   font-weight: 500;
@@ -761,7 +761,7 @@ header .navigation a {
 .animated-text {
   position: relative;
   right: 70px;
-  bottom: 130px;
+  bottom: 100px;
   width: 300px;
 }
 .animated-text h3 {
