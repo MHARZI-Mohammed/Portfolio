@@ -842,4 +842,21 @@ header .navigation a {
   display: flex;
   justify-content: space-between;
 }
+.about .content .img-card {
+  position: relative;
+  width: 100%;
+}
+.about .content .img-card img {
+  position: relative;
+  top: 10px;
+  left: 55px;
+  width: 70%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.about .content-title {
+  font-size: 26px;
+  font-weight: 800;
+}
 }
