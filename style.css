@@ -858,5 +858,11 @@ header .navigation a {
 .about .content-title {
   font-size: 26px;
   font-weight: 800;
+  position: relative;
+  bottom: 100px;
+}
+.about .paragraph-text{
+  position: relative;
+  bottom: 60px;
 }
 }
