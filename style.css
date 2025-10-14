@@ -745,8 +745,6 @@ header .navigation a {
 }
 .animated-text h3 {
   position: relative;
-  right: 40px;
-  bottom: 30px;
   color: #FF3F18;
   font-size: 30px;
   font-weight: 700;
@@ -755,6 +753,27 @@ header .navigation a {
 }
 .animated-text h3:nth-child(1) {
   animation: text-move 10s infinite
+}
+@keyframes text-move {
+  0% {
+    margin-top: 0;
+  }
+
+  25% {
+    margin-top: -70px;
+  }
+
+  50% {
+    margin-top: -140px;
+  }
+
+  75% {
+    margin-top: -70px;
+  }
+
+  100% {
+    margin-top: 0;
+  }
 }
 section {
   padding: 0;
