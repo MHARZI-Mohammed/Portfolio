@@ -728,7 +728,7 @@ header .navigation a {
   }
   .main .content h2 {
   position: relative;
-  right: 40px;
+  right: 70px;
   bottom: 130px;
   color: #000;
   font-size: 34px;
@@ -740,8 +740,10 @@ header .navigation a {
   font-weight: 600;
 }
 .animated-text {
-  overflow: hidden;
   position: relative;
+  right: 70px;
+  bottom: 130px;
+  width: 300px;
 }
 .animated-text h3 {
   position: relative;
@@ -753,7 +755,7 @@ header .navigation a {
 }
 .animated-text h3:nth-child(1) {
   animation: text-move 10s infinite
-}
+} 
 @keyframes text-move {
   0% {
     margin-top: 0;
@@ -775,7 +777,30 @@ header .navigation a {
     margin-top: 0;
   }
 }
-section {
-  padding: 0;
 }
+.btn {
+  color: #fff;
+  background: #FF3F18;
+  font-size: 17px;
+  font-weight: 600;
+  display: inline-block;
+  text-decoration: none;
+  letter-spacing: 1px;
+  border-radius: 2px;
+  margin: 30px 0;
+  transition: .5s ease;
+  border-radius: 50px;
+  border: #000 solid;
+  position: relative;
+  right: 70px;
+  bottom: 130px;
+}
+.btn:hover {
+  background: #fff;
+  color: #000;
+}
+.media-icons a {
+  color: #FF3F18;
+  font-size: 25px;
+  margin-right: 30px;
 }
