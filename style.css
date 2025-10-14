@@ -322,27 +322,27 @@ section {
   border-radius: 2px;
 }
 
-.skills .html::before {
+.skills .javascript::before {
   width: 80%;
   background: #ffee00;
 }
 
-.skills .css::before {
+.skills .react::before {
   width: 75%;
   background: #5aabe1;
 }
 
-.skills .javascript::before {
+.skills .express::before {
   width: 80%;
   background: #ffffff;
 }
 
-.skills .jquery::before {
+.skills .node::before {
   width: 80%;
   background: #1fba55;
 }
 
-.skills .php::before {
+.skills .mongo::before {
   width: 90%;
   background: #6adf6c;
 }
