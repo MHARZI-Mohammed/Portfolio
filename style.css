@@ -329,9 +329,14 @@ section {
   background: #ffee00;
 }
 
+.skills .tailwind::before {
+  width: 85%;
+  background: #16BECB;
+}
+
 .skills .react::before {
   width: 75%;
-  background: #5aabe1;
+  background: #00DCFF;
 }
 
 .skills .express::before {
