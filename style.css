@@ -777,7 +777,6 @@ header .navigation a {
     margin-top: 0;
   }
 }
-}
 .btn {
   color: #fff;
   background: #FF3F18;
@@ -803,4 +802,5 @@ header .navigation a {
   color: #FF3F18;
   font-size: 25px;
   margin-right: 30px;
+}
 }
