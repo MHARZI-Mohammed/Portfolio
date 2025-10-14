@@ -75,10 +75,10 @@ section {
   left: 100px;
 }
 
-.profil{
+.profil {
   max-width: 50%;
   position: relative;
-  left:250px;
+  left: 250px;
   top: 30px;
   width: 400px;
   border-radius: 20px;
@@ -163,7 +163,7 @@ section {
   margin-right: 30px;
 }
 
-#link{
+#link {
   padding-left: 40px;
 }
 
@@ -683,4 +683,76 @@ section {
 .reveal.active {
   transform: translateY(0);
   opacity: 1;
+}
+
+@media screen and (max-width: 700px){
+  header {
+  background: #F9F9F9;
+  top: 30px;
+  left: 30px;
+  width: 85%;
+  padding: 15px 115px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 999;
+  transition: .5s ease;
+  border: 1.5px solid;
+  border-radius: 20px;
+}
+
+header.sticky {
+  background: #dcdcdc;
+  padding: 10px 115px;
+}
+
+header .brand {
+  color: #000;
+  font-size: 32px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+header .navigation {
+  position: relative;
+}
+
+header .navigation a {
+  display: none;
+}
+  .menu-btn{
+    display: none;
+  }
+  .profil{
+    display: none;
+  }
+  .main .content h2 {
+  position: relative;
+  right: 40px;
+  bottom: 130px;
+  color: #000;
+  font-size: 34px;
+  font-weight: 500;
+  padding: 0;
+}
+.main .content h2 span {
+  font-size: 34px;
+  font-weight: 600;
+}
+.animated-text {
+  overflow: hidden;
+  position: relative;
+}
+.animated-text h3 {
+  color: #FF3F18;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.animated-text h3:nth-child(1) {
+  animation: text-move 10s infinite
+}
+section {
+  padding: 0;
+}
 }
