@@ -865,4 +865,26 @@ header .navigation a {
   position: relative;
   bottom: 60px;
 }
+.scrollToTop-btn {
+  z-index: 999;
+  position: fixed;
+  background: #FF3F18;
+  color: #fff;
+  width: 45px;
+  height: 45px;
+  right: 0;
+  bottom: 10px;
+  font-size: 22px;
+  text-align: center;
+  line-height: 45px;
+  border-radius: 3px;
+  cursor: pointer;
+  opacity: 0;
+  transition: all .3s ease;
+}
+
+.scrollToTop-btn.active {
+  right: 20px;
+  opacity: 1;
+}
 }
