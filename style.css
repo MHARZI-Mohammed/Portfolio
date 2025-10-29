@@ -103,7 +103,7 @@ section {
 }
 
 .animated-text h3 {
-  color: #FF3F18;
+  color: #516069;
   font-size: 52px;
   font-weight: 700;
   line-height: 70px;
@@ -138,7 +138,7 @@ section {
 
 .btnn {
   color: #fff;
-  background: #FF3F18;
+  background: #516069;
   font-size: 17px;
   font-weight: 600;
   display: inline-block;
@@ -159,7 +159,7 @@ section {
 
 .btn {
   color: #fff;
-  background: #FF3F18;
+  background: #516069;
   font-size: 17px;
   font-weight: 600;
   display: inline-block;
@@ -179,7 +179,7 @@ section {
 }
 
 .media-icons a {
-  color: #FF3F18;
+  color: #516069;
   font-size: 25px;
   margin-right: 30px;
 }
@@ -198,7 +198,7 @@ section {
 
 .section-title {
   position: relative;
-  color: #FF3F18;
+  color: #516069;
   font-size: 38px;
   font-weight: 800;
   margin-bottom: 60px;
@@ -211,7 +211,7 @@ section {
   left: 50%;
   width: 140px;
   height: 3px;
-  background: #FF3F18;
+  background: #516069;
   transform: translateX(-50%);
 }
 
@@ -220,7 +220,7 @@ section {
   position: absolute;
   top: 50px;
   left: 50%;
-  background: #FF3F18;
+  background: #516069;
   transform: translateX(-50%);
 }
 
@@ -379,7 +379,7 @@ section {
 }
 
 .services .card .service-icon {
-  color: #FF3F18;
+  color: #516069;
   font-size: 120px;
   text-align: center;
   transition: transform .5s ease;
@@ -394,7 +394,7 @@ section {
 }
 
 .services .card .info h3 {
-  color: #FF3F18;
+  color: #516069;
   font-size: 20px;
   font-weight: 700;
   margin: 10px;
@@ -469,7 +469,7 @@ section {
 }
 
 .contact .card .contact-icon {
-  color: #FF3F18;
+  color: #516069;
   font-size: 60px;
   text-align: center;
   transition: transform .5s ease;
@@ -532,7 +532,7 @@ section {
 
 .contact-form .input-box .send-btn {
   color: #fff;
-  background: #FF3F18;
+  background: #516069;
   display: inline-block;
   font-size: 19px;
   font-weight: 600;
@@ -603,7 +603,7 @@ section {
   }
 
   header .navigation a:hover {
-    background: #FF3F18;
+    background: #516069;
     color: #fff;
   }
 
@@ -679,7 +679,7 @@ section {
 .scrollToTop-btn {
   z-index: 999;
   position: fixed;
-  background: #FF3F18;
+  background: #516069;
   color: #fff;
   width: 45px;
   height: 45px;
@@ -779,7 +779,7 @@ section {
 
   .animated-text h3 {
     position: relative;
-    color: #FF3F18;
+    color: #516069;
     font-size: 30px;
     font-weight: 700;
     width: 350px;
@@ -814,7 +814,7 @@ section {
 
   .btnn {
     color: #fff;
-    background: #FF3F18;
+    background: #516069;
     font-size: 17px;
     font-weight: 600;
     display: inline-block;
@@ -836,7 +836,7 @@ section {
   }
 
   .media-icons a {
-    color: #FF3F18;
+    color: #516069;
     font-size: 25px;
     margin-right: 30px;
     position: relative;
@@ -893,7 +893,7 @@ section {
   .scrollToTop-btn {
     z-index: 999;
     position: fixed;
-    background: #FF3F18;
+    background: #516069;
     color: #fff;
     width: 45px;
     height: 45px;
